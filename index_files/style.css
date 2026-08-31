@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #da291c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-color: #ffc72c;
+    color: #da291c;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.cta-btn {
+    text-decoration: none;
+    background-color: #ffc72c;
+    color: #222;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background-color: #ffbc0d;
+}
+
+/* Hero */
+
+.content {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.content h1 {
+    color: #da291c;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    color: #555;
+    font-size: 18px;
+}
+
+/* Sections */
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 60px 80px;
+}
+
+.image1,
+.text {
+    flex: 1;
+}
+
+.image1 img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.text h1 {
+    font-size: 35px;
+    color: #da291c;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+}
+.image1{
+  width: 100%;
+  border-radius:10px ;
+  display: block;
+}
